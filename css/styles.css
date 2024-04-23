@@ -48,6 +48,10 @@ body {
   letter-spacing: 0.02em;
   font-style: normal;
 }
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
 /* ============= hero styles =========== */
 .main-title {
   font-weight: 700;
@@ -61,10 +65,11 @@ body {
   background: #2e2f42;
 }
 .service-button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   background: #4d5ae5;
 }
 .service-button:hover,
@@ -93,6 +98,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list-name {
   font-weight: 500;
@@ -109,6 +115,13 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.team {
+  background: #f4f4fd;
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+
 /* ============= Our Portfolio styles =========== */
 .portfolio-title {
   font-weight: 700;
@@ -117,6 +130,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list-title {
   font-weight: 500;
@@ -136,13 +150,14 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
-}
-.text-color {
   color: #4d5ae5;
+}
+
+.logo-color {
+  color: #f4f4fd;
 }
 .page-footer-text {
   font-weight: 400;
